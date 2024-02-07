@@ -2,7 +2,7 @@ Leonid1305
 
 ## Контакты
 
-Телефон: +7 968 951 23 55 / Donkryl@gmail.com/ Krylov.l@bk.ru
+Телефон: +7 968 951 23 55 / Donkryl@gmail.com/
 
 ## Общие данные
 
