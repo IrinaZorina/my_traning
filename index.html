@@ -2,75 +2,87 @@
 <html>
 <head>
   <title>My First HTML</title>
-  
-  <!-- TODO Добавить стили -->
   <style>
-    body{
-      height: 100%;
-      width: 100%;
-      background: linear-gradient(green, pink);
+    body {
+      background-color: rgb(136, 235, 174);
+      font-family: Arial, Helvetica, sans-serif;
     }
-    table, tr, th{
-    border: 2px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    vertical-align: middle;
-    margin: auto;
+
+    h2,
+    p {
+      text-align: center;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .content-item1 {
+      font-size: 40px;
+      color: rgb(199, 146, 253);
+    }
+
+    .content-item2 {
+      font-size: 35px;
+      color: rgb(171, 88, 253);
+    }
+
+    .content-item3 {
+      font-size: 30px;
+      color: rgb(134, 17, 250);
+    }
+
+    .content-item3::after {
+      content: '\00B0';
+      font-weight: 500;
+    }
+
+    .text {
+      font-size: 24px;
+      color: rebeccapurple;
+    }
+
+    table,
+    tr,
+    th {
+      border: 2px solid rgb(229, 240, 138);
+      border-collapse: collapse;
+      text-align: center;
+      vertical-align: middle;
+      margin: auto;
     }
   </style>
+
 </head>
+
 <body>
-  <main>
-    <h2>All users</h2>
-    <p>Listeners data</p>
 
-    <table style="width:100%">
-      <tr>
-        <th>Igor</th>
-        <th>Usov</th> 
-        <th>25</th>
-      </tr>  
-  <!-- Ждем контент -->
-    </table>
-<!-- <p>TODO text</p> -->
-  <tr>
-    <th>Kirill</th>
-    <th>Lipatov</th> 
-    <th>Age 32</th>
-  </tr>
-  <div>
-    <img src="https://64.media.tumblr.com/26714b766267fac3ddd3eec1dad603ec/tumblr_ngdhxb064u1tuz4ijo1_r1_1280.png" alt="altair">
-  <div>
-    <img src="https://i.pinimg.com/736x/50/cc/9a/50cc9ab27e845ad802318d69a0a88750.jpg" alt="#">
+  <h2>All users</h2>
+  <p>Listeners data</p>
+
+  <table>
+    <tr>
+      <th>Виталий</th>
+      <th>Попов</th>
+      <th>32</th>
+    </tr>
+
+  </table>
+
+  <div class="content">
+    <div class="content-item1">Температура</div>
+    <div class="content-item2">сегодня</div>
+    <div class="content-item3">уже -20</div>
+    <div class="content-item4"><img
+        src="https://yandex-pogoda.static-storage.net/Db92A7A71/41a7678m-Y/jUMpdHEVB7sHEI_VvoAqcu1NUzqBFkYDBrzPZu_99pRhk3boq1sP8ymb5HPnxDtMGYu37N5Dn7TPiHjipp8frr55GlxLBQX7DRCD1LuQFFmlaUNUrHtiGRqB3i3Z6s6mbZJgx6kSFdsmodMd3OEGByi4icLZHYug5JJ_yISWA42vRAh0XSww_i4yjbasqS5n6Et1UqJtQyw4g-8D9ejLhWyEZsupNwX2J5XeJNnxHg0hhJvZ0wSKkNyHcvSEpRKtqkQQeGAvBdI-NoOOkI07ZO5Ma36ZcVoiIp37AfXU9JNqlGTpiRgo6zea_ybu-RgGMIqL3OQIjoPGm0TQl4Q4ubVzNHdLHxPMDAeQrY2VBFLXQ2p_qWhmLyGmxSj88eKTXpNXz648Le0-l-g60MopKgGPt-bgKY6I8rNFzoOMC6iHUwhTaykK3gM5g4ughhtL53pPTLx8Zi4TuP4P-tT_uUOceveXPifVAabdL-3zKS4ziq7C1CyCtOStXeepmBWHoFE8eGoQPfYMBpmijYgZT9dPcH-JeFkPBoTOPMT-8ZBZpV_lkxEt3ziW4C_d3TYsE4iK8NMUnYr7p3XpnpAQrqd-D3hiOBDkBDyLorCDO3ftRGlFvU9XAQ2h0wr14cm7UJx6yIwkEOgBvtgrx-YKEhquicHhAICy0IVi2Yy6AbWZZhhaUhUU5SInnruzhgpX5l5iVKVeaw8zk-8d1PX1n3yBW8-SHwTNB7HbLcPfODcusZL53g6vltiOdcuVvjKsqXgKfko0FtcrOYuemJMNc-NpdFO5Q0EUKqrJL9_34aZirl_xhiwr4gG45CjMyCsuHLOoycM4g5DLv2Pypp8mkrhbJ0ZvOhXEJCyfkJ-gPHLsQUB_mltuBx2T9C7ewNGnW4ZD974HEuA-vPkP_f4_Cx-JiPDyJIik7oRex6-kFbGDfzpWQTMr_yogo5W-nSFP1U5xXqV2TBUmsewdyNPWsWGdeNSRGgjgLLf5NOXbKistuJXpyCCKsuamavK_pQqTjV0uVEIkKPMoJrGyvIchb89AUWe_S0E1OoHEAcrUzpNblXTopxM10yC0_Ani9hYwFrCL2fIqq6j_vFPKhpcasqNUEmdUDRz-IxGjq6SVOVDOZGNYilN7Ih6h6xzC5vmTbJhp344_DusJktQs9dUxDxaKoPf7Jo-Q_pZf0IKWEIeidh5GVjoS9x0Nr4Onrjh24Ux4W512WRk-t9Md_tPBv0GxUdenMQTdIL3HPufGMwwRk5_XwCeDsf-VXcqKryu4oHgERVcMF984L5iUuZIYasxPeGO-TFgHKqvuJeXZ4oBto2b8jgQ3yw2n6ATQ8SQQHqOf6sYHgprLjnLakKUTrqd2E1lHBBLcOz-NnYS1DXXOfFVhjnp_ASWHyAHfxvSGeLhY7pIdMcMrvOcoxPUWNzW2lcrfCqq4_pxO-reuObG9XhJRTgsv9yYdvZiulDJJ8lJOW4ppVRYGntUH7uf8mWGSX8KlHwrqPKndNPnGKSk3g7vU1ymHhvKWSeSCvDWAp0MkT3A2A8UdPbCNiIwvb-RHaWCpf38DLbjvHdrj3ZZvvX_-izcA3jme_hjg5hArCLON8tE5rq76kV3OkI0Cp5h-G31SCS3hLQOpt4a3BUPLfGlFoFJ9FxOT7R3G3f-CRYZn6a8fJvwai_k65tgfITyjkevfIqepwYNQ5J-2LKSfVxR5bQQK1DsUt5yfkChE4VtAcIRxXxAGgN4wy_7pmH2eedWcFTLZJZ7dLN3XFzU6mLb99AU"
+        alt=""></div>
   </div>
-  <div>
-    <img src="https://64.media.tumblr.com/26714b766267fac3ddd3eec1dad603ec/tumblr_ngdhxb064u1tuz4ijo1_r1_1280.png" alt="altair">
-   </div>
-</table>
-<p>
-  Я не смогу, Сэм.<br>
-  Я знаю, это ошибка. По правде говоря нам и быть здесь незачем. Но мы здесь. Мы словно в легенде очутились, мистер Фродо. В одной из тех, что берут за душу. В них столько страхов и опасностей; порой даже не хочется узнавать конец, потому что не верится, что всё кончится хорошо. Как может всё снова стать по-прежнему, когда всё так плохо? Но в конце всё проходит. И даже самый непроглядный мрак рассеивается. Грядёт новый день, и когда засветит солнце, оно будет светить ещё ярче! Такие великие легенды врезаются в сердце и запоминаются на всю жизнь, даже если ты слышал их ребёнком, и не понимаешь, почему они врезались. Но мне кажется, мистер Фродо, я понимаю. Понял теперь. Герои этих историй сто раз могли отступить, но не отступили. Они боролись, потому что им было на что опереться…<br>
-  На что мы опираемся, Сэм?<br>
-  На то, что в мире есть добро, мистер Фродо. И за него стоит бороться.
-</p>
-<p>
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
-  Eveniet doloribus ipsa dicta quae alias quo accusantium odio<br>
-  tempore autem dignissimos blanditiis voluptatum, dolor repellat in<br>
-  fugit soluta corporis recusandae minus.
-</p>
 
-    <table>
-      <tr>
-        <th>Tatjyana</th>
-        <th>Bogoyavlenskaya</th> 
-        <th>26</th>
-      </tr>  
-    </table>
-    <div style="width: 150px;">
-      <img src="https://trikky.ru/wp-content/blogs.dir/1/files/2023/03/23/zyro-image-11.jpg" alt="apple" title="image apple" style="height: 200px;">
-      <p style="text-align: center; margin: 0;">Какая-то картинка</p>
-    </div>
-  </main>
+  <p class="text">Делюсь последними новостями, у нас в Череповце похолодание, одевайтесь теплее</p>
+
 </body>
+
 </html>
