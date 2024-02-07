@@ -3,86 +3,60 @@
 <head>
   <title>My First HTML</title>
   <style>
-    body {
-      background-color: rgb(136, 235, 174);
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    h2,
-    p {
-      text-align: center;
-    }
-
-    .content {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      margin-top: 30px;
-    }
-
-    .content-item1 {
-      font-size: 40px;
-      color: rgb(199, 146, 253);
-    }
-
-    .content-item2 {
-      font-size: 35px;
-      color: rgb(171, 88, 253);
-    }
-
-    .content-item3 {
-      font-size: 30px;
-      color: rgb(134, 17, 250);
-    }
-
-    .content-item3::after {
-      content: '\00B0';
-      font-weight: 500;
-    }
-
-    .text {
-      font-size: 24px;
-      color: rebeccapurple;
-    }
-
-    table,
-    tr,
-    th {
-      border: 2px solid rgb(229, 240, 138);
-      border-collapse: collapse;
-      text-align: center;
-      vertical-align: middle;
-      margin: auto;
-    }
+   body {
+    
+    background: url("https://wallpapers.com/images/hd/hell-2000-x-1000-2fiwna66nj94tx3x.jpg") no-repeat ;
+    background-size: cover;
+   }
+   .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+   }
+   .block-info {
+    background-color: black;
+    width: 900px;
+    height: 400px;
+    opacity: 0.7;
+    border-radius: 7px;
+    z-index: 1000;
+    box-shadow: 2px 3px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+   }
+   .item_info {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+   }
+   .item_info2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+   }
   </style>
 
 </head>
 
 <body>
-
-  <h2>All users</h2>
-  <p>Listeners data</p>
-
-  <table>
-    <tr>
-      <th>Виталий</th>
-      <th>Попов</th>
-      <th>32</th>
-    </tr>
-
-  </table>
-
-  <div class="content">
-    <div class="content-item1">Температура</div>
-    <div class="content-item2">сегодня</div>
-    <div class="content-item3">уже -20</div>
-    <div class="content-item4"><img
-        src="https://yandex-pogoda.static-storage.net/Db92A7A71/41a7678m-Y/jUMpdHEVB7sHEI_VvoAqcu1NUzqBFkYDBrzPZu_99pRhk3boq1sP8ymb5HPnxDtMGYu37N5Dn7TPiHjipp8frr55GlxLBQX7DRCD1LuQFFmlaUNUrHtiGRqB3i3Z6s6mbZJgx6kSFdsmodMd3OEGByi4icLZHYug5JJ_yISWA42vRAh0XSww_i4yjbasqS5n6Et1UqJtQyw4g-8D9ejLhWyEZsupNwX2J5XeJNnxHg0hhJvZ0wSKkNyHcvSEpRKtqkQQeGAvBdI-NoOOkI07ZO5Ma36ZcVoiIp37AfXU9JNqlGTpiRgo6zea_ybu-RgGMIqL3OQIjoPGm0TQl4Q4ubVzNHdLHxPMDAeQrY2VBFLXQ2p_qWhmLyGmxSj88eKTXpNXz648Le0-l-g60MopKgGPt-bgKY6I8rNFzoOMC6iHUwhTaykK3gM5g4ughhtL53pPTLx8Zi4TuP4P-tT_uUOceveXPifVAabdL-3zKS4ziq7C1CyCtOStXeepmBWHoFE8eGoQPfYMBpmijYgZT9dPcH-JeFkPBoTOPMT-8ZBZpV_lkxEt3ziW4C_d3TYsE4iK8NMUnYr7p3XpnpAQrqd-D3hiOBDkBDyLorCDO3ftRGlFvU9XAQ2h0wr14cm7UJx6yIwkEOgBvtgrx-YKEhquicHhAICy0IVi2Yy6AbWZZhhaUhUU5SInnruzhgpX5l5iVKVeaw8zk-8d1PX1n3yBW8-SHwTNB7HbLcPfODcusZL53g6vltiOdcuVvjKsqXgKfko0FtcrOYuemJMNc-NpdFO5Q0EUKqrJL9_34aZirl_xhiwr4gG45CjMyCsuHLOoycM4g5DLv2Pypp8mkrhbJ0ZvOhXEJCyfkJ-gPHLsQUB_mltuBx2T9C7ewNGnW4ZD974HEuA-vPkP_f4_Cx-JiPDyJIik7oRex6-kFbGDfzpWQTMr_yogo5W-nSFP1U5xXqV2TBUmsewdyNPWsWGdeNSRGgjgLLf5NOXbKistuJXpyCCKsuamavK_pQqTjV0uVEIkKPMoJrGyvIchb89AUWe_S0E1OoHEAcrUzpNblXTopxM10yC0_Ani9hYwFrCL2fIqq6j_vFPKhpcasqNUEmdUDRz-IxGjq6SVOVDOZGNYilN7Ih6h6xzC5vmTbJhp344_DusJktQs9dUxDxaKoPf7Jo-Q_pZf0IKWEIeidh5GVjoS9x0Nr4Onrjh24Ux4W512WRk-t9Md_tPBv0GxUdenMQTdIL3HPufGMwwRk5_XwCeDsf-VXcqKryu4oHgERVcMF984L5iUuZIYasxPeGO-TFgHKqvuJeXZ4oBto2b8jgQ3yw2n6ATQ8SQQHqOf6sYHgprLjnLakKUTrqd2E1lHBBLcOz-NnYS1DXXOfFVhjnp_ASWHyAHfxvSGeLhY7pIdMcMrvOcoxPUWNzW2lcrfCqq4_pxO-reuObG9XhJRTgsv9yYdvZiulDJJ8lJOW4ppVRYGntUH7uf8mWGSX8KlHwrqPKndNPnGKSk3g7vU1ymHhvKWSeSCvDWAp0MkT3A2A8UdPbCNiIwvb-RHaWCpf38DLbjvHdrj3ZZvvX_-izcA3jme_hjg5hArCLON8tE5rq76kV3OkI0Cp5h-G31SCS3hLQOpt4a3BUPLfGlFoFJ9FxOT7R3G3f-CRYZn6a8fJvwai_k65tgfITyjkevfIqepwYNQ5J-2LKSfVxR5bQQK1DsUt5yfkChE4VtAcIRxXxAGgN4wy_7pmH2eedWcFTLZJZ7dLN3XFzU6mLb99AU"
-        alt=""></div>
+  <div class="container">
+    <div class="block-info">
+      <div class="item_info">
+        <h1>Григорьев Владислав, 22 года</h1>
+        
+      </div>
+      <div class="item_info2">
+        <h4>„Через 20 лет вы будете больше разочарованы теми вещами, которые вы не делали, чем теми, которые вы сделали. 
+          Так отчальте от тихой пристани. Почувствуйте попутный ветер в вашем парусе. 
+          Двигайтесь вперед, действуйте, открывайте!“ —  Маркт Твен</h4>
+      </div>
+      
+    </div>
   </div>
-
-  <p class="text">Делюсь последними новостями, у нас в Череповце похолодание, одевайтесь теплее</p>
-
+ 
 </body>
 
 </html>
