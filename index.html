@@ -2,58 +2,60 @@
 <html>
 <head>
   <title>My First HTML</title>
-  
-  <!-- TODO Добавить стили -->
   <style>
-    body {
-      background-color: goldenrod;
+    img{
+      width: 250px;
+      height: 250px;
     }
 
-    table {
-      background-color: silver;
+    table{
+      border: 2px solid black;
     }
 
-    table, tr, th{
-      border: 4px solid;
-      border-collapse: collapse;
-      text-align: center;
-      vertical-align: middle;
-      margin: auto;
+    body{
+    background-color: antiquewhite;
     }
-  
+    
     .content {
       font-size: 3vw;
       color: red;
     }
-
   </style>
+  <!-- TODO Добавить стили -->
+
 </head>
 <body>
-  <main>
-    <h2>All users</h2>
-    <p>Listeners data</p>
 
-    <table style="width:100%">
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th> 
-        <th>Age</th>
-      </tr>
-      <tr>
+<h2>All users</h2>
+<p>Listeners data</p>
+
+<table>
+  <tr>
+    <th>Konstantin</th>
+    <th>Vasiliev</th> 
+    <th>Age 35</th>
+  </tr>
+  
+<!-- Ждем контент -->
+  <div>
+    <img src="https://i.postimg.cc/pdD83wNb/world.jpg">
+  </div>
+</table>
+
+<a href="users/vasiliev_konstantin/README.md" ><p>Ссылка на файл анкеты</p></a>
+  
+<table>
+   <tr>
         <th>Denis</th>
         <th>Utkov</th> 
         <th>28</th>
-      </tr> 
-    </table>
- 
-  
-  <!-- Ждем контент -->
+   </tr> 
+</table>
 
-   
-<!-- <p>TODO text</p> -->
-  <p class="content">
+ <p class="content">
     Ожидайте топовый контент в будущих обновлениях!
   </p>
-  <img src="https://pngicon.ru/file/uploads/zhdun.png" alt="zhdun">
+  <img src="https://pngicon.ru/file/uploads/zhdun.png" alt="zhdun">  
+
 </body>
 </html>
