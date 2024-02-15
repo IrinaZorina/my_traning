@@ -1,0 +1,13 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border: 3px solid green;
+}
+th, td {
+    border: 2px solid green;
+    text-align: center;
+}
+html {
+    background-color: #c8e5c8;
+}
