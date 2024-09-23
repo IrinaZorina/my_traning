@@ -13,17 +13,20 @@ HEAD commit iv
 =======
 ## Общие данные
 
-Возраст: **18**      
-Город: **Магнитогорск**       
+Возраст: **29**      
+Город: **Самара**       
 
 ## Укажи свои скилы
-
-- PHP    
+ 
 - HTML    
+main  main HEAD:users/ivanov_ivan/README.md
 - JS    
 - Assembler    
 - Могу выйти из vim    
 HEAD commit iv1-2_task_lugvin
+=======
+- JS       
+main  main main:users/sokolova_anastasiya/README.md
 
 ### Рыба текст
 Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке.
@@ -40,8 +43,8 @@ HEAD commit iv1-2_task_lugvin
 =======
 ## Контакты
 
-Телефон: **45-45-45**
-Почта: **example@example.ru**
+Телефон: **89170308941**
+Почта: **nastya.sokol2013@yandex.ru**
 
 
 1-2_task_lugvin_HEAD commit iv
