@@ -23,6 +23,6 @@
 ## Контакты
 
 Телефон: +7-996-102-51-94
-Почта: dina@gmail.com
+Почта: dinashamsitdinova@gmail.com
 
 
