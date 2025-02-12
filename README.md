@@ -1,6 +1,3 @@
-
-2_task_Sadrislamov
-
 ## 2 задание
 
 
