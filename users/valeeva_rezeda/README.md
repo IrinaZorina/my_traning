@@ -9,8 +9,7 @@
 
 - PHP    
 - HTML    
-- JS    
-- Assembler    
+- JS      
 - Могу выйти из vim    
 
 ### Рыба текст
