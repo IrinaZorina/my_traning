@@ -20,53 +20,66 @@ body{
 .title{
   text-align: center;
 }
-.table{
-  border: 2px solid black;
-  border-collapse: collapse;
-  color: azure;
-}
+
 th{
   border: 2px solid black;
   border-collapse: collapse;
 }
+table {
+  border-spacing: 5px;
+  border-collapse: collapse;
+}
   </style>
-</head>
-<body>
-
-  <h2 class="title">All users</h2>
-  <p class="text">Listeners data</p>
-
-<table style="width:100%" class="table">
-  <tr>
-    <th>Максим</th>
-    <th>Филинков</th> 
-    <th>39</th>
-  </tr>
-  <tr>
-    <th>Иван</th>
-    <th>Иванов</th> 
-    <th>33</th>
-  </tr>
-  <tr>
-    <th>Петр</th>
-    <th>Петров</th> 
-    <th>27</th>
-  </tr>
-  <tr>
-    <th>Антон</th>
-    <th>Антонов</th> 
-    <th>31</th>
-  </tr>
-  <tr>
-    <th>Мария</th>
-    <th>Машкова</th> 
-    <th>28</th>
-  </tr>
-  
-  <!-- Ждем контент -->
-
-</table>
 
 <p>Add content into this page</p>
 </body>
 </html>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+table {
+  border-spacing: 15px;
+}
+</style>
+</head>
+<body>
+
+<h2 class="title">All users</h2>
+<p class="text">Listeners data</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Максим</td>
+    <td>Филинков</td> 
+    <td>39</td>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<p><strong>Tip:</strong> Try to change the border-spacing to 5px.</p>
+
+</body>
+</html>
+>>>>>>> origin/main
