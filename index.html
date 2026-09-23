@@ -1,28 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>My First HTML</title>
-  
-  <!-- TODO Добавить стили -->
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th,
+    td {
+      border: 1px solid #999;
+      padding: 8px 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e0e0e0;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
 
 </head>
+
 <body>
 
-<h2>All users</h2>
-<p>Listeners data</p>
+  <h2>All users</h2>
+  <p>Listeners data</p>
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  
-  <!-- Ждем контент -->
+  <table style="width:100%">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
 
-</table>
+    <tr>
+      <td>Вероника</td>
+      <td>Борина</td>
+      <td>18</td>
+    </tr>
 
-<!-- <p>TODO text</p> -->
+  </table>
+
+  <p>Работа с PHP И Git</p>
 
 </body>
+
 </html>
