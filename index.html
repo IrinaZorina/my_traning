@@ -1,45 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-table, th, td {
-  border: 1px solid black;
-  padding: 5px;
-}
-table {
-  border-spacing: 15px;
-}
-</style>
+  <title>My First HTML</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th,
+    td {
+      border: 1px solid #999;
+      padding: 8px 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e0e0e0;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+
 </head>
+
 <body>
 
-<h2>All users</h2>
-<p>Listeners data</p>
+  <h2>All users</h2>
+  <p>Listeners data</p>
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>Doe</td>
-    <td>80</td>
-  </tr>
-</table>
+  <table style="width:100%">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
 
-<p><strong>Tip:</strong> Try to change the border-spacing to 5px.</p>
+    <tr>
+      <td>Вероника</td>
+      <td>Борина</td>
+      <td>18</td>
+    </tr>
+
+  </table>
+
+  <p>Работа с PHP И Git</p>
 
 </body>
+
 </html>
